@@ -1,0 +1,48 @@
+{ 
+    "window.zoomLevel": -1, 
+    "vim.foldfix": true,
+    "vim.insertModeKeyBindings": [ {
+            "before": ["capslock"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.handleKeys": { "<C-f>": false },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["f", "k"],
+            "after": ["z", "c"]
+        },
+        {
+            "before": ["f", "j"],
+            "after": ["z", "o"]
+        },
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false
+    },
+    "eslint.validate": [
+        "typescript",
+        "javascript"
+    ],
+    "workbench.colorTheme": "Base16 Dark Atelier Lakeside",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+
+
+}
